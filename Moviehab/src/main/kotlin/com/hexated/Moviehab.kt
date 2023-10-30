@@ -12,7 +12,7 @@ import com.lagradost.cloudstream3.utils.loadExtractor
 import org.jsoup.nodes.Element
 
 class vivamax.asia : MainAPI() {
-    override var mainUrl = "https://vivamax.asia.com"
+    override var mainUrl = "https://vivamax.asia"
     override var name = "vivamax.asia"
     override val hasMainPage = true
     override var lang = "tl"
