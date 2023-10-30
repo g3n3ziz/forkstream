@@ -11,9 +11,9 @@ import com.lagradost.cloudstream3.utils.M3u8Helper
 import com.lagradost.cloudstream3.utils.loadExtractor
 import org.jsoup.nodes.Element
 
-class Moviehab : MainAPI() {
-    override var mainUrl = "https://moviehab.com"
-    override var name = "Moviehab"
+class vivamax.asia : MainAPI() {
+    override var mainUrl = "https://vivamax.asia.com"
+    override var name = "vivamax.asia"
     override val hasMainPage = true
     override var lang = "tl"
     override val hasDownloadSupport = true
@@ -23,7 +23,7 @@ class Moviehab : MainAPI() {
     )
 
     companion object {
-        private const val mainServer = "https://play.moviehab.com"
+        private const val mainServer = "https://vivamax.asia"
     }
 
     override val mainPage = mainPageOf(
